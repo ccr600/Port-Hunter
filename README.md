@@ -16,3 +16,10 @@ python main.py
 Enter IP or domain to scan: scanme.nmap.org
 Port 22 is open
 Port 80 is open
+
+### Docker - DevSecOps
+
+```bash
+docker build -t port-hunter-v2 .
+docker run -it --rm port-hunter-v2
+```
